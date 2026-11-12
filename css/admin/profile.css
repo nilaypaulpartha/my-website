@@ -1,0 +1,23 @@
+.admin_upper_bar{
+    background-color:blanchedalmond;
+}
+.admin_upper_bar img{
+    width: 80px;
+}
+.common{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 30px 0px 30px;
+}
+
+/* admin profile pic and name handling */
+.admin_upper_bar .profile{
+    margin: 0px;
+    padding: 0px;
+}
+.admin_upper_bar .profile p{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* admin profile pic and name handling end*/
