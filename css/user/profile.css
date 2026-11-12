@@ -1,0 +1,52 @@
+.user_bar{
+    display: flex;  
+    flex-wrap: wrap;
+    width: 100%; 
+}
+.notices{
+    background-color: aqua;
+}
+
+/* bar modifiier for image and others */
+.bar_modifier{
+    padding: 0 15% 0 15%;
+    justify-content: center;
+    display: block;
+    align-items: center;
+}
+.bar_modifier .bar_list .wrap{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px 20px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.bar_modifier p {
+  margin: 0; /* default <p> margins are often what push the text off-center */
+}
+.bar_modifier img{
+    width:8px;
+}
+.bar_list .btn{
+    align-items: center;
+    padding:19px 0 0 0;
+}
+.bar_modifier .details{
+   width: 100%;
+   display: block;
+   text-align: center;
+    justify-content: center;
+    background-color: white;
+   border: 2px dotted black;
+}
+.bar_modifier .details img{
+   width: 200px;
+   display: wrap;
+    align-self: center;
+    background-color: white;
+   border: 2px dotted black;
+}
+
+/* bar modifier end */
