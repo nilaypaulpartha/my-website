@@ -53,7 +53,7 @@
 .admin_panel_common_style{
     
     padding: 30px;
-    /* display: none; */
+    display: none;
     border: 3px dotted black;
     
     margin: 0px 20%
