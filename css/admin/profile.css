@@ -29,14 +29,33 @@
     padding: 0px;
 }
 
+/* admin panel main */
+#admin_panel_main{
+    margin: 20px;
+}
+
+/* end */
+
+
 
 /* admin profile pic and name handling end*/
 
 /* middle portion of admin panel page */
+.admin_option_bar .bar_style:hover{
+    height: 50%;
+    background-color: aqua;
+    padding: 0px;
+    border:3px dotted black;
+    border-radius: 20px;
+    transition: all 0.25s ease; 
+}
+
 .admin_panel_common_style{
+    
     padding: 30px;
-    display: none;
+    /* display: none; */
     border: 3px dotted black;
+    
     margin: 0px 20%
 }
 .admin_panel_common_style .header h2{
@@ -57,3 +76,11 @@
     justify-content: right;
 }
 /* Daily Receiving info */
+
+
+/* Collection info */
+.display_flex div,.display_flex{
+    display: flex;
+
+}
+/* Customer info finished */
