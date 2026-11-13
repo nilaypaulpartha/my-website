@@ -1,8 +1,16 @@
 .admin_upper_bar{
     background-color:blanchedalmond;
 }
-.admin_upper_bar img{
+.admin_upper_bar .logo img{
     width: 80px;
+}
+.admin_upper_bar .profile_pic{
+    display: flex;
+    justify-content: space-around;
+}
+.admin_upper_bar .profile_pic img{
+    justify-content: center;
+    width: 40px;
 }
 .common{
     display: flex;
@@ -12,12 +20,40 @@
 
 /* admin profile pic and name handling */
 .admin_upper_bar .profile{
-    margin: 0px;
-    padding: 0px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
 }
-.admin_upper_bar .profile p{
+.admin_upper_bar .profile_name p{
     margin: 0px;
     padding: 0px;
 }
 
+
 /* admin profile pic and name handling end*/
+
+/* middle portion of admin panel page */
+.admin_panel_common_style{
+    padding: 30px;
+    display: none;
+    border: 3px dotted black;
+    margin: 0px 20%
+}
+.admin_panel_common_style .header h2{
+    text-align: center;
+}
+.admin_panel_common_style .header{
+    border-bottom:3px solid black;
+}
+
+/* middle portion of admin panel page end */
+
+
+/* Daily Receiving  */
+.admin_panel_common_style .Customer_info{
+    display:none;
+}
+#Daily_receiving_cross{
+    justify-content: right;
+}
+/* Daily Receiving info */

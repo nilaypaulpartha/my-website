@@ -9,14 +9,14 @@
 </head>
 <body>
     <div class="admin_upper_bar common">
-        <div><img src="../images/Website/BDMAX_LOGO.png" alt=""></div>
+        <div class="logo"><img src="../images/Website/BDMAX_LOGO.png" alt=""></div>
         <div>
             <h2>Admin Panel</h2>
         </div>
         <div  class="dropdown">
-            <div>
-                <div class="profile"><img src="../images/Website/user.jpg" alt=""></div>
-                <div class="profile"><p>Nilay Paul</p></div>
+            <div class="profile">
+                <div class="profile_pic"><img src="../images/Website/user.jpg" alt=""></div>
+                <div class="profile_name"><p>Nilay Paul</p></div>
             </div>
             <div class="content">
                 <a href="">Profile</a>
@@ -27,10 +27,10 @@
         </div>
     </div>
     <div class="admin_option_bar common">
-        <div>
+        <div id="Money_Receive_btn">
             <h5>Money Receive</h5>
         </div>
-        <div>
+        <div id="collection_btn">
             <h5>Collection</h5>
         </div>
         <div>
@@ -50,10 +50,83 @@
             <!-- here i update offer and news -->
         </div>
     </div>
-    
-    
 
 
-    
+    <!-- Money Recipt portion -->
+    <div class="admin_panel_common_style" id="Money_Receive">
+        <div><button id="Daily_receiving_cross">cross</button></div>
+        <div class="header">
+            <h2>Daily Receiving</h2>
+        </div>
+        <div>
+            <div>
+                <h5>Enter Customer Detail :</h5>
+            </div>
+            <div>
+                <input type="text">
+            </div>
+        </div>
+        <div class="Customer_info">
+            <table border="2px" width="100%">
+                <tr>
+                    <td><h5>Id</h5></td>
+                    <td><h5>NUV1011</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>Name</h5></td>
+                    <td><h5>Nilay</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>Billing Type</h5></td>
+                    <td><h5>Pre Paid</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>Ip/Username</h5></td>
+                    <td><h5>frmp@partha</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>Address</h5></td>
+                    <td><h5>fxyz</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>Monthly Rent</h5></td>
+                    <td><h5>500</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>Previous Due</h5></td>
+                    <td><h5>600</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>Due Months </h5></td>
+                    <td><h5>Jun-26:500TK, Jul-26:500TK, Aug-26:500TK, Sep-26:500TK, Oct-26:500TK</h5></td>
+                </tr>
+                <tr>
+                    <td><h5>Total Payable Amount</h5></td>
+                    <td><h5>3000</h5></td>
+                </tr>
+            </table>
+            <div>
+                <div>
+                    <input type="Amount" name="" id="" placeholder="Amount">
+                </div>
+                <div>
+                    <div>
+                        <button></button>
+                    </div>
+                    <div>
+                        <button>print</button>
+                    </div>
+                </div>                
+            </div>
+        </div>    
+    </div>
+    <!-- Collection Info -->
+    <div class="admin_panel_common_style" id="collection_info">
+        <div><button id="collection_info_cross">cross</button></div>
+        <div class="header">
+            <h2>Collection Info</h2>
+        </div>
+    </div>
+    <script src="../js/admin/profile.js"></script>    
 </body>
 </html>
