@@ -81,6 +81,20 @@
 /* Collection info */
 .display_flex div,.display_flex{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 /* Customer info finished */
+
+
+
+/* Update info */
+.update_options{
+    background-color: antiquewhite;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Update infos end */

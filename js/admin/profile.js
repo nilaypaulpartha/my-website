@@ -10,6 +10,11 @@ document.getElementById('Daily_receiving_cross').addEventListener('click',(event
 document.getElementById('collection_btn').addEventListener('click',(event)=>{admin_panel_hide('collection_info')});
 document.getElementById('collection_info_cross').addEventListener('click',(event)=>{admin_panel_hide('collection_info')});
 
+//update button handler
+
+document.getElementById('update_btn').addEventListener('click',(event)=>{admin_panel_hide('update_info')});
+document.getElementById('update_info_cross').addEventListener('click',(event)=>{admin_panel_hide('update_info')});
+
 
 
 function admin_panel_hide(opening_id){
